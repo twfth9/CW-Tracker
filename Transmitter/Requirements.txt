@@ -1,0 +1,28 @@
+Weight: 10-20 g w/ battery
+	CR2032: 3.1 g
+	
+Duty Cycle:
+	Normal: 30-60 ms Pulse @ 40-95 ppm (0.5-1.5 Hz)
+	Low: 20-30 ms Pulse @ 27-30 ppm (0.45-0.5 Hz)
+Battery Life: 5-40 Days
+Battery Types: CR2032
+Transmit Power: 
+Frequency: 216-219 MHz
+	Note: 10kHz Spacing Between Channels
+	216.005, 216.015, 216.025, etc.
+
+Wildlife Legal:
+	Frequency Band: 216-220 MHz
+	Bandwidth: <1 kHz
+	Emission Classes: N0N, A1A, A2A, A2B, F1B, J2B, F2A, F2B, and/or F8E
+	Minimum Frequency Stability: 0.005% (50 parts per million)
+		Measured over temperature range: −30° to + 50° centigrade at normal supply voltage and for a variation in the primary supply voltage from 85% to 115% of the rated supply voltage at a temperature of + 20 °C.
+	Maximum Power:
+		1 mW for Airborne Wildlife
+		10 mW for Terrestrial Wildlife
+		100 mW for Ocean Buoys
+	Frequency Mask: -26dBc beyond 216-220MHz
+	
+
+Optional:
+	Low Battery Beep

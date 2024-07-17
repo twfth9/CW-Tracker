@@ -1,0 +1,769 @@
+/*Developer: Eric Egasse  */
+/*Website: RX-150       */
+/*Date Modified: 10/03/19 */
+
+
+/*INDEX.HTML - CONTAINS MAIN HEADING & TABLE OF CONTENTS & BUTTONS- STYLE BELOW*/
+.index_body {
+margin:0px;
+background:url(images/bckgnd.jpg);
+}
+
+.index_table {
+width:970px;
+height:900px;
+border:ridge #a2cd5a 3px;
+margin:20px auto 0 auto;
+background:white;
+border-collapse:separate;
+}
+
+.index_heading {
+width:970px;
+height:150px;
+text-align:center;
+}
+
+A.csibacklink {
+	font:bold 11pt Arial;
+	color: #F60;
+	text-decoration: none;
+	padding: 10px;
+	text-align:center;
+}
+
+A:link {
+	text-decoration: none;
+	color: #F60
+}
+A:visited {
+	text-decoration: none;
+	color: #F60
+}
+A:active {
+	text-decoration: none;
+	color: #F60
+}
+A:hover {
+	text-decoration: underline;
+	color: #00C;
+}
+
+
+
+
+
+
+td.iframe_cell, iframe {
+width:750px;
+height:750px;
+}
+
+td.toc_cell {
+width:220px;
+height:750px;
+vertical-align:top;
+text-align:center;
+}
+
+td.index_heading img {
+width:625px;
+height:150px;
+}
+
+.text1 {
+position:relative;
+left:-3px;
+}
+
+.text2 {
+position:relative;
+left:-3px;
+}
+
+a.buttons {
+border:ridge #9acd32 3px;
+display:block;
+width:184px;
+height:50px;
+margin:50px auto;
+text-align:left;
+font:italic bold 9pt arial;
+text-decoration:none;
+}
+
+a.buttons:link {
+color:#556b2f;
+background:url(images/button5.jpg) no-repeat;
+}
+
+a.buttons:visited {
+color:blue;
+background:url(images/button5.jpg) no-repeat;
+}
+
+a.buttons:hover {
+color:orange;
+background:url(images/button5_in.jpg) no-repeat;
+}
+
+a.buttons:active {
+color:orange;
+background:url(images/button5_in.jpg) no-repeat;
+}
+
+a.buttons:focus {
+color:orange;
+background:url(images/button5_in.jpg) no-repeat;
+/*-moz-outline:none;*/
+}
+
+span.text1 {
+    position: relative;
+    top: 15px;
+    margin-left: 8px;
+}
+
+span.text2 {
+    position: relative;
+    top: 15px;
+    margin-left: 8px;
+}
+
+
+/*HOME.HTML - PRODUCT USAGE & DESCRIPTION - STYLE BELOW*/
+div.container01 {
+width:720px;  
+height:260px;
+margin:0 auto 0 auto;
+}
+
+div.container01 div {
+width:350px;
+height:243px;
+float:left;
+}
+
+img.waco {
+width:350px;
+height:243px;
+margin-left:5px;
+}
+
+img.p80 {
+width:350px;
+height:254px;
+margin-left:10px;
+}
+
+div.container02 {
+	width: 724px;
+	height: 230px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+div.container02 div {
+width:300px;
+height:215px;
+float:left;
+}
+
+img.folded_ant {
+width:300px;
+height:215px;
+margin-left:20px;
+}
+
+img.unfolded_ant {
+width:300px;
+height:147px;
+margin-left:80px;
+}
+
+/*PRODUCTS.HTML - STYLE BELOW*/
+.table01 {
+width:600px;
+height:auto;
+font:12pt arial;
+text-align:center;
+margin:20px auto;
+}
+
+.table01 img {
+border:solid black 0px;
+}
+
+.table01 th {
+    width: 300px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.pr_100 img {
+width:auto;
+height:auto;
+margin:0px 0px 0px 0px;
+}
+
+.r_300 img {
+width:auto;
+height:auto;
+margin:0px 0px 0px 0px;
+}
+
+.pt_1b img {
+width:auto;
+height:auto;
+margin:0px 0px 0px 0px;
+}
+
+.at_2b img {
+width:auto;
+height:auto;
+margin:0px 0px 0px 0px;
+}
+
+/*ACCESSORIES.HTML - STYLE BELOW*/
+.table02 {
+width:600px;
+height:auto;
+font:12pt arial;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+}
+
+.table02 img {
+border:solid black 0px;
+}
+
+.table02 th {
+width:300px;
+}
+
+.acc_batt img {
+width:auto;
+height:auto;
+margin:0px 0px 0px 0px;
+}
+
+.acc_spare_case img {
+width:auto;
+height:auto;
+margin:0px 0px 0px 0px;
+}
+
+.acc_mag_mount_ant img {
+width:auto;
+height:auto;
+margin:30px 0px 0px 0px;
+}
+
+.acc_spare_ant img {
+width:auto;
+height:auto;
+margin:30px 0px 0px 0px;
+}
+
+/*PR-100.HTML PRODUCT DETAILS - STYLE BELOW*/
+.pr-100_detail{
+border:solid black 0px;
+border-collapse:collapse;
+width:700px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.folded100 {
+width:auto;
+height:auto;
+}
+
+.case100 {
+width:auto;
+height:auto;
+}
+
+.unfolded100 {
+width:auto;
+height:auto;
+}
+
+.pr-100_detail_text {
+border:solid black 0px;
+width:600px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+text-align:left;
+font:12pt arial;
+}
+
+/*R-300.HTML PRODUCT DETAILS - STYLE BELOW*/
+.r-300_detail{
+    border: solid black 0px;
+    border-collapse: collapse;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    font: 12pt arial;
+    vertical-align: middle;
+}
+
+.folded300 {
+width:auto;
+height:auto;
+}
+
+.case300 {
+width:auto;
+height:auto;
+}
+
+.unfolded300 {
+width:auto;
+height:auto;
+}
+
+.r-300_detail_text {
+border:solid black 0px;
+width:600px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+text-align:left;
+font:12pt arial;
+}
+
+/*RC-SP,MP,HP.HTML PRODUCT DETAILS - STYLE BELOW*/
+.rc-sp_mp_hp_detail{
+border:solid black 0px;
+border-collapse:collapse;
+width:700px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.rc-sp_mp_hp {
+width:auto;
+height:auto;
+}
+
+.rc-sp_mp_hp_open {
+width:auto;
+height:auto;
+}
+
+.rc-sp_mp_hp_bat {
+width:auto;
+height:auto;
+}
+
+.rc-sp_mp_hp_detail_text {
+border:solid black 0px;
+width:600px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+text-align:left;
+font:12pt arial;
+}
+
+/*AT-2B.HTML PRODUCT DETAILS - STYLE BELOW*/
+.at-2b_detail{
+border:solid black 0px;
+border-collapse:collapse;
+width:700px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.at-2b_2 {
+width:auto;
+height:auto;
+}
+
+.at-2b_open {
+width:auto;
+height:auto;
+}
+
+.at-2b_bat {
+width:auto;
+height:auto;
+margin-top:140px;
+}
+
+.at-2b_detail_text {
+border:solid black 0px;
+width:600px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+text-align:left;
+font:12pt arial;
+}
+
+/*ACCESS_2032_BATT.HTML ACCESSORY DETAILS - STYLE BELOW*/
+.battery_detail{
+border:solid black 0px;
+border-collapse:collapse;
+width:750px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.batt_pack_detail {
+width:auto;
+height:auto;
+}
+
+.detail_2032 {
+width:auto;
+height:auto;
+margin-top:140px;
+}
+
+.batt_detail_text {
+border:solid black 0px;
+width:auto;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:left;
+font:12pt arial;
+}
+
+/*ACCESS_CASE.HTML ACCESSORY DETAILS - STYLE BELOW*/
+.spare_case_detail{
+border:solid black 0px;
+border-collapse:collapse;
+width:750px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.case_detail {
+width:auto;
+height:auto;
+margin-top:80px;
+}
+
+.case_detail2 {
+width:auto;
+height:auto;
+margin-bottom:20px;
+}
+
+.spare_case_detail_text {
+border:solid black 0px;
+width:auto;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:left;
+font:12pt arial;
+}
+
+/*ACCESS_MAG_ANT.HTML ACCESSORY DETAILS - STYLE BELOW*/
+.mag_mount_detail{
+border:solid black 0px;
+border-collapse:collapse;
+width:750px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.mag_mount_ant {
+width:auto;
+height:auto;
+}
+
+.mag_mount_ant2 {
+width:auto;
+height:auto;
+margin-top:90px;
+}
+
+.mag_mount_detail_text {
+border:solid black 0px;
+width:auto;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:left;
+font:12pt arial;
+}
+
+/*ACCESS_FA-3.HTML ACCESSORY DETAILS - STYLE BELOW*/
+.spare_fa-3_detail {
+border:solid black 0px;
+border-collapse:collapse;
+width:750px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:center;
+font:12pt arial;
+vertical-align:middle;
+}
+
+.fa-3_1 {
+width:auto;
+height:auto;
+}
+
+.fa-3_2 {
+width:auto;
+height:auto;
+}
+
+.fa-3_detail_text {
+border:solid black 0px;
+width:auto;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+text-align:left;
+font:12pt arial;
+}
+
+/*MANUAL.HTML - ALL MANUALS - STYLE BELOW*/
+
+.table03 {
+width:700px;
+height:650px;
+margin:0 auto;
+}
+
+.table03 img {
+border:outset #a2cd5a 2px;
+}
+
+/*CONTACT.HTML - CSI CONTACT INFO - STYLE BELOW*/
+
+.contact {
+border:ridge 3px #a2cd5a;
+width:600px;
+height:250px;
+margin:0px auto;
+}
+
+.contact_info {
+border:solid black 0px;
+width:600px;
+height:auto;
+margin-top:30px;
+margin-left:auto;
+margin-right:auto;
+font:16pt arial;
+color:#556b2f;
+}
+
+.web {
+font:italic 20pt arial;
+}
+
+.contact_info span {
+font:bold italic 18pt arial;
+}
+
+.contact_info a {
+text-decoration:none;
+}
+
+/*I-FRAME HEADING & TEXT - STYLES ALL HEADINGS THAT ARE VIEWED IN THE IFRAME WINDOW - STYLE BELOW*/
+h1.heading {
+text-align:center;
+font:italic bold 24pt arial;
+color:#556b2f;
+text-decoration:underline;
+}
+
+.heading2 {
+font:12pt arial;
+color:#556b2f;
+text-align:center;
+}
+
+/*BACK_BUTTONS*/
+a.buttons_back {
+    border: ridge #9acd32 3px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+    text-align: center;
+    font: italic bold 9pt arial;
+    text-decoration: none;
+    position: absolute;
+    top: 690px;
+    right: 20px;
+    margin-top: 0px;
+}
+
+a.buttons_back2 {
+    border: ridge #9acd32 3px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+    text-align: center;
+    font: italic bold 9pt arial;
+    text-decoration: none;
+    position: absolute;
+    top: 700px;
+    right: 20px;
+}
+
+
+a.buttons_back3 {
+    border: ridge #9acd32 3px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+    text-align: center;
+    font: italic bold 9pt arial;
+    text-decoration: none;
+    position: absolute;
+    top: 970px;
+    right: 20px;
+}
+
+
+
+
+a.buttons_back:link {
+color:#556b2f;
+background:url(images/back_button.jpg) no-repeat;
+}
+
+a.buttons_back:visited {
+color:blue;
+background:url(images/back_button.jpg) no-repeat;
+}
+
+a.buttons_back:hover {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+}
+
+a.buttons_back:active {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+}
+
+a.buttons_back:focus {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+/*-moz-outline:none;*/
+}
+
+
+
+
+a.buttons_back2:link {
+color:#556b2f;
+background:url(images/back_button.jpg) no-repeat;
+}
+
+a.buttons_back2:visited {
+color:blue;
+background:url(images/back_button.jpg) no-repeat;
+}
+
+a.buttons_back2:hover {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+}
+
+a.buttons_back2:active {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+}
+
+a.buttons_back2:focus {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+/*-moz-outline:none;*/
+}
+
+
+a.buttons_back3:link {
+color:#556b2f;
+background:url(images/back_button.jpg) no-repeat;
+}
+
+a.buttons_back3:visited {
+color:blue;
+background:url(images/back_button.jpg) no-repeat;
+}
+
+a.buttons_back3:hover {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+}
+
+a.buttons_back3:active {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+}
+
+a.buttons_back3:focus {
+color:orange;
+background:url(images/back_button_press.jpg) no-repeat;
+/*-moz-outline:none;*/
+}
+
+
+
+span.text3 {
+position:relative;
+top:7px;
+}

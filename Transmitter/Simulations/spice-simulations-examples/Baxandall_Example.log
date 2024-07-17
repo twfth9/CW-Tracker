@@ -1,0 +1,492 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\frisc\Documents\GitHub\CW-Tracker\Simulations\Baxandall_Example.asc
+Start Time: Wed Apr  3 10:55:07 2024
+solver = Normal
+Maximum thread count: 4
+
+
+
+.OP point found by inspection.
+.step pot2dev=1 pot1dev=1
+
+
+
+.step pot2dev=11 pot1dev=1
+
+
+
+.step pot2dev=21 pot1dev=1
+
+
+
+.step pot2dev=31 pot1dev=1
+
+
+
+.step pot2dev=41 pot1dev=1
+
+
+
+.step pot2dev=51 pot1dev=1
+
+
+
+.step pot2dev=61 pot1dev=1
+
+
+
+.step pot2dev=71 pot1dev=1
+
+
+
+.step pot2dev=81 pot1dev=1
+
+
+
+.step pot2dev=91 pot1dev=1
+
+
+
+.step pot2dev=99 pot1dev=1
+
+
+
+.step pot2dev=1 pot1dev=11
+
+
+
+.step pot2dev=11 pot1dev=11
+
+
+
+.step pot2dev=21 pot1dev=11
+
+
+
+.step pot2dev=31 pot1dev=11
+
+
+
+.step pot2dev=41 pot1dev=11
+
+
+
+.step pot2dev=51 pot1dev=11
+
+
+
+.step pot2dev=61 pot1dev=11
+
+
+
+.step pot2dev=71 pot1dev=11
+
+
+
+.step pot2dev=81 pot1dev=11
+
+
+
+.step pot2dev=91 pot1dev=11
+
+
+
+.step pot2dev=99 pot1dev=11
+
+
+
+.step pot2dev=1 pot1dev=21
+
+
+
+.step pot2dev=11 pot1dev=21
+
+
+
+.step pot2dev=21 pot1dev=21
+
+
+
+.step pot2dev=31 pot1dev=21
+
+
+
+.step pot2dev=41 pot1dev=21
+
+
+
+.step pot2dev=51 pot1dev=21
+
+
+
+.step pot2dev=61 pot1dev=21
+
+
+
+.step pot2dev=71 pot1dev=21
+
+
+
+.step pot2dev=81 pot1dev=21
+
+
+
+.step pot2dev=91 pot1dev=21
+
+
+
+.step pot2dev=99 pot1dev=21
+
+
+
+.step pot2dev=1 pot1dev=31
+
+
+
+.step pot2dev=11 pot1dev=31
+
+
+
+.step pot2dev=21 pot1dev=31
+
+
+
+.step pot2dev=31 pot1dev=31
+
+
+
+.step pot2dev=41 pot1dev=31
+
+
+
+.step pot2dev=51 pot1dev=31
+
+
+
+.step pot2dev=61 pot1dev=31
+
+
+
+.step pot2dev=71 pot1dev=31
+
+
+
+.step pot2dev=81 pot1dev=31
+
+
+
+.step pot2dev=91 pot1dev=31
+
+
+
+.step pot2dev=99 pot1dev=31
+
+
+
+.step pot2dev=1 pot1dev=41
+
+
+
+.step pot2dev=11 pot1dev=41
+
+
+
+.step pot2dev=21 pot1dev=41
+
+
+
+.step pot2dev=31 pot1dev=41
+
+
+
+.step pot2dev=41 pot1dev=41
+
+
+
+.step pot2dev=51 pot1dev=41
+
+
+
+.step pot2dev=61 pot1dev=41
+
+
+
+.step pot2dev=71 pot1dev=41
+
+
+
+.step pot2dev=81 pot1dev=41
+
+
+
+.step pot2dev=91 pot1dev=41
+
+
+
+.step pot2dev=99 pot1dev=41
+
+
+
+.step pot2dev=1 pot1dev=51
+
+
+
+.step pot2dev=11 pot1dev=51
+
+
+
+.step pot2dev=21 pot1dev=51
+
+
+
+.step pot2dev=31 pot1dev=51
+
+
+
+.step pot2dev=41 pot1dev=51
+
+
+
+.step pot2dev=51 pot1dev=51
+
+
+
+.step pot2dev=61 pot1dev=51
+
+
+
+.step pot2dev=71 pot1dev=51
+
+
+
+.step pot2dev=81 pot1dev=51
+
+
+
+.step pot2dev=91 pot1dev=51
+
+
+
+.step pot2dev=99 pot1dev=51
+
+
+
+.step pot2dev=1 pot1dev=61
+
+
+
+.step pot2dev=11 pot1dev=61
+
+
+
+.step pot2dev=21 pot1dev=61
+
+
+
+.step pot2dev=31 pot1dev=61
+
+
+
+.step pot2dev=41 pot1dev=61
+
+
+
+.step pot2dev=51 pot1dev=61
+
+
+
+.step pot2dev=61 pot1dev=61
+
+
+
+.step pot2dev=71 pot1dev=61
+
+
+
+.step pot2dev=81 pot1dev=61
+
+
+
+.step pot2dev=91 pot1dev=61
+
+
+
+.step pot2dev=99 pot1dev=61
+
+
+
+.step pot2dev=1 pot1dev=71
+
+
+
+.step pot2dev=11 pot1dev=71
+
+
+
+.step pot2dev=21 pot1dev=71
+
+
+
+.step pot2dev=31 pot1dev=71
+
+
+
+.step pot2dev=41 pot1dev=71
+
+
+
+.step pot2dev=51 pot1dev=71
+
+
+
+.step pot2dev=61 pot1dev=71
+
+
+
+.step pot2dev=71 pot1dev=71
+
+
+
+.step pot2dev=81 pot1dev=71
+
+
+
+.step pot2dev=91 pot1dev=71
+
+
+
+.step pot2dev=99 pot1dev=71
+
+
+
+.step pot2dev=1 pot1dev=81
+
+
+
+.step pot2dev=11 pot1dev=81
+
+
+
+.step pot2dev=21 pot1dev=81
+
+
+
+.step pot2dev=31 pot1dev=81
+
+
+
+.step pot2dev=41 pot1dev=81
+
+
+
+.step pot2dev=51 pot1dev=81
+
+
+
+.step pot2dev=61 pot1dev=81
+
+
+
+.step pot2dev=71 pot1dev=81
+
+
+
+.step pot2dev=81 pot1dev=81
+
+
+
+.step pot2dev=91 pot1dev=81
+
+
+
+.step pot2dev=99 pot1dev=81
+
+
+
+.step pot2dev=1 pot1dev=91
+
+
+
+.step pot2dev=11 pot1dev=91
+
+
+
+.step pot2dev=21 pot1dev=91
+
+
+
+.step pot2dev=31 pot1dev=91
+
+
+
+.step pot2dev=41 pot1dev=91
+
+
+
+.step pot2dev=51 pot1dev=91
+
+
+
+.step pot2dev=61 pot1dev=91
+
+
+
+.step pot2dev=71 pot1dev=91
+
+
+
+.step pot2dev=81 pot1dev=91
+
+
+
+.step pot2dev=91 pot1dev=91
+
+
+
+.step pot2dev=99 pot1dev=91
+
+
+
+.step pot2dev=1 pot1dev=99
+
+
+
+.step pot2dev=11 pot1dev=99
+
+
+
+.step pot2dev=21 pot1dev=99
+
+
+
+.step pot2dev=31 pot1dev=99
+
+
+
+.step pot2dev=41 pot1dev=99
+
+
+
+.step pot2dev=51 pot1dev=99
+
+
+
+.step pot2dev=61 pot1dev=99
+
+
+
+.step pot2dev=71 pot1dev=99
+
+
+
+.step pot2dev=81 pot1dev=99
+
+
+
+.step pot2dev=91 pot1dev=99
+tnom = 27
+temp = 27
+method = modified trap
+.step pot2dev=99 pot1dev=99
+Total elapsed time: 5.813 seconds.
+
