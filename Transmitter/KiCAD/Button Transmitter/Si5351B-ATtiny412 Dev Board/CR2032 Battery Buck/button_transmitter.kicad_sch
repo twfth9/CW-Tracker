@@ -6040,7 +6040,7 @@
 		(fields_autoplaced yes)
 		(uuid "43026383-f905-43db-b5a6-65fcaeaa8b6e")
 		(property "Reference" "C10"
-			(at 110.8964 147.5811 0)
+			(at 110.8964 147.581 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +6048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 110.8964 150.0053 0)
 			(effects
 				(font
@@ -7439,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "1M"
 			(at 84.709 99.6371 0)
 			(effects
 				(font
@@ -8380,7 +8380,7 @@
 				)
 			)
 		)
-		(property "Value" "CM1213A-01SO"
+		(property "Value" "LS0504EVT233"
 			(at 93.6625 141.7899 0)
 			(effects
 				(font
@@ -8398,7 +8398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/LS0504EVT233_Preliminary_2022.pdf"
 			(at 80.01 142.875 90)
 			(effects
 				(font
@@ -8407,7 +8407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V, 4A eFuse with Over Voltage and Over Current Protection"
 			(at 93.98 145.415 0)
 			(effects
 				(font
