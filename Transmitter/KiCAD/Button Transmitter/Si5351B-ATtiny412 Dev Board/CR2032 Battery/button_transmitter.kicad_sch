@@ -3722,16 +3722,16 @@
 		(uuid "f5f6d21c-f529-4f6e-a182-0f1ab079826b")
 	)
 	(no_connect
+		(at 177.165 43.18)
+		(uuid "09d405b7-7875-475d-835e-85ce9736e311")
+	)
+	(no_connect
 		(at 177.165 48.26)
 		(uuid "508c9558-cbb6-463e-b329-e5b6d5196912")
 	)
 	(no_connect
-		(at 177.165 43.18)
-		(uuid "5f1d2db9-361a-45f4-8571-167b3c335a5b")
-	)
-	(no_connect
-		(at 177.165 58.42)
-		(uuid "fa67b185-ad77-466a-9de0-82e815a8f653")
+		(at 177.165 53.34)
+		(uuid "bff45ba7-52c0-4a7d-8de8-7bde05c153fc")
 	)
 	(wire
 		(pts
@@ -4095,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 53.34) (xy 205.105 53.34)
+			(xy 194.31 58.42) (xy 205.105 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4365,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 53.34) (xy 186.69 53.34)
+			(xy 177.165 58.42) (xy 186.69 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4706,8 +4706,8 @@
 		)
 		(uuid "ee4c95f8-193e-4dd9-a389-6de705a2bce7")
 	)
-	(label "CLK2_T"
-		(at 177.8 53.34 0)
+	(label "CLK3_T"
+		(at 177.8 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4794,8 +4794,8 @@
 		)
 		(uuid "8db93200-108c-4457-b5ed-b98c9598cf4f")
 	)
-	(label "CLK2"
-		(at 196.215 53.34 0)
+	(label "CLK3"
+		(at 196.215 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5082,7 +5082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.185 58.42 0)
+		(at 210.185 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5092,7 +5092,7 @@
 		(fields_autoplaced yes)
 		(uuid "071534f5-5bb1-4973-8375-ec0417946663")
 		(property "Reference" "#PWR011"
-			(at 210.185 64.77 0)
+			(at 210.185 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.185 61.5949 90)
+			(at 210.185 66.6749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.185 58.42 0)
+			(at 210.185 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.185 58.42 0)
+			(at 210.185 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.185 58.42 0)
+			(at 210.185 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +5993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Case"
+		(property "Footprint" "Library:Case_CR2032"
 			(at 243.205 102.87 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 210.185 53.34 0)
+		(at 210.185 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6591,7 +6591,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aedabed-17e4-46f3-87be-908ac145bc29")
 		(property "Reference" "J2"
-			(at 212.7251 52.4211 0)
+			(at 212.7251 57.5011 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6600,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 212.7251 54.8453 0)
+			(at 212.7251 59.9253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,8 +6608,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MountingHole_4.3mm_Pad_Coaxial_2"
-			(at 210.185 53.34 0)
+		(property "Footprint" "Library:RF_Solder_Pad"
+			(at 210.185 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,8 +6617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
-			(at 210.185 53.34 0)
+		(property "Datasheet" "~"
+			(at 210.185 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.185 53.34 0)
+			(at 210.185 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7083,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "JST Battery Connector"
+		(property "Value" "CR2032"
 			(at 73.914 150.5006 0)
 			(effects
 				(font
@@ -7092,7 +7092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:JST_PH_HORIZONTAL_WITH_BATTERY_3"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
 			(at 76.835 149.606 90)
 			(effects
 				(font
@@ -8794,7 +8794,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 190.5 53.34 90)
+		(at 190.5 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8802,7 +8802,7 @@
 		(dnp no)
 		(uuid "cef032d3-6349-495d-b15a-73e41a668282")
 		(property "Reference" "R3"
-			(at 187.96 50.8 90)
+			(at 187.96 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8810,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 193.04 50.8 90)
+			(at 193.04 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8818,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.754 52.324 90)
+			(at 190.754 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 53.34 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 53.34 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
