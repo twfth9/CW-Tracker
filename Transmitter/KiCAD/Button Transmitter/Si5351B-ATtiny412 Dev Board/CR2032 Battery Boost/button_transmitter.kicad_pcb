@@ -41,6 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 75.62 103.916925)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -2993,7 +2994,7 @@
 			(pintype "passive")
 			(uuid "ac77b6fd-9d04-4f63-a39d-aa8a38d9667f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC.step"
+		(model "${KIPRJMOD}/Library.pretty/L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC (1).step"
 			(offset
 				(xyz 0 0 1)
 			)

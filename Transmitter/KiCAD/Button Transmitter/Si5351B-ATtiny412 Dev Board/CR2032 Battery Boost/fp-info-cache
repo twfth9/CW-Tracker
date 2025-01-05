@@ -1,4 +1,4 @@
-23896594279578214
+23903553455470200
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64764,6 +64764,27 @@ SMD SMT crystal
 4
 4
 Library
+IPL_Logo_2mm
+
+
+0
+0
+0
+Library
+IPL_Logo_3mm
+
+
+0
+0
+0
+Library
+IPL_Logo_4mm
+
+
+0
+0
+0
+Library
 IPL_Logo_5mm
 
 
@@ -64896,6 +64917,13 @@ mounting hole 2.5mm
 0
 3
 2
+Library
+Panel
+
+
+0
+0
+0
 Library
 RF_Solder_Pad
 Mounting Hole 2.5mm

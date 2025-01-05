@@ -499,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "button_transmitter_cr2032_traces.step",
