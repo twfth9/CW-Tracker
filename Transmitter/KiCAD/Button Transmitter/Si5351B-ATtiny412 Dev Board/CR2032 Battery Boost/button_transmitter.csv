@@ -1,28 +1,27 @@
-"Reference","Value","Datasheet","Footprint","Qty","DNP"
-"BT1","CR2032","~","Battery:BatteryHolder_Keystone_3034_1x20mm","1",""
-"BZ1","Buzzer Pads","~","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","1",""
-"C1,C3,C4,C6,C7","100nF","~","Resistor_SMD:R_0402_1005Metric","5",""
-"C2,C5,C10","10uF","~","Resistor_SMD:R_0402_1005Metric","3",""
-"C8","10pF","~","Resistor_SMD:R_0402_1005Metric","1",""
-"C9","22uF","~","Resistor_SMD:R_0603_1608Metric","1",""
-"D1,D3","RED","~","LED_SMD:LED_0402_1005Metric","2",""
-"D2","LS0504EVT233","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/LS0504EVT233_Preliminary_2022.pdf","Package_TO_SOT_SMD:SOT-23-3","1",""
-"J1","1.27mm Pogo Pads","~","Library:2x3_1.27mm_Pogo_Header","1",""
-"J2","Conn_Coaxial","~","Library:RF_Solder_Pad","1",""
-"JP1","Jumper_2_Open","~","Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm","1",""
-"L1","220uH","~","Inductor_SMD:L_1008_2520Metric","1",""
-"L2","4.7uH","~","Inductor_SMD:L_0805_2012Metric","1",""
-"Q1","MMUN2238LT1G","~","Package_TO_SOT_SMD:SOT-23-3","1",""
-"R1,R2","1k8","~","Resistor_SMD:R_0402_1005Metric","2",""
-"R3","0R","~","Resistor_SMD:R_0402_1005Metric","1",""
-"R4","10k","~","Resistor_SMD:R_0402_1005Metric","1",""
-"R5,R6","10","~","Resistor_SMD:R_0402_1005Metric","2",""
-"R7","1M","~","Resistor_SMD:R_0402_1005Metric","1",""
-"R8,R11","100","~","Resistor_SMD:R_0402_1005Metric","2",""
-"R9","120k","~","Resistor_SMD:R_0402_1005Metric","1",""
-"R10","22k","~","Resistor_SMD:R_0402_1005Metric","1",""
-"U1","ATtiny412-SS","http://ww1.microchip.com/downloads/en/DeviceDoc/40001911A.pdf","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","1",""
-"U2","Si5351B-B-GM1","https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf","Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm","1",""
-"U3","TLV62568DRL","http://www.ti.com/lit/ds/symlink/tlv62568.pdf","Package_TO_SOT_SMD:SOT-563","1",""
-"U4","~","","Library:Case_CR2032","1",""
-"Y1","25MHz","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2180/CX3225SB_UKY1C-H1-16355-00_Spec.pdf","Library:Crystal_SMD_Kyocera_CX3225SB-4Pin_3.2x2.5mm","1",""
+Reference,Value,Datasheet,Footprint,Qty,DNP
+BT1,CR2032,~,Library:BatteryHolder_Keystone_3034_1x20mm_CUTOUT,1,
+"BZ1,BZ2-1",7BB-20-3,~,-- mixed values --,2,
+"C1,C2,C4,C6,C7,C8",100nF,~,Library:Worthington_C_0402_1005Metric,6,
+"C3,C5,C9",10uF,~,Library:Worthington_C_0402_1005Metric,3,
+C10,22uF,~,Capacitor_SMD:C_0603_1608Metric,1,
+D1,RED,~,Library:Worthington_LED_0402_1005Metric,1,
+D2,ESD156B1W,https://www.infineon.com/dgdl/Infineon-ESD156-B1-W0201-DataSheet-v01_02-EN.pdf?fileId=8ac78c8c85ecb3470185eea129d200a0,Diode_SMD:D_0201_0603Metric,1,
+D3,GREEN,~,Library:Worthington_LED_0402_1005Metric,1,
+J2,1.27mm Pogo Pads For Programming & Debug,~,Library:2x3_1.27mm_Pogo_Header,1,
+L1,100mH,~,Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC,1,
+L2,4.7uH,~,Inductor_SMD:L_0805_2012Metric,1,
+Q1,MMUN2238LT1G,~,Package_TO_SOT_SMD:SOT-23-3,1,
+R1,10k,~,Library:Worthington_R_0402_1005Metric,1,
+"R2,R3",1k8,~,-- mixed values --,2,
+R4,0R,~,Library:Worthington_R_0402_1005Metric,1,
+"R5,R6",10,~,Library:Worthington_R_0402_1005Metric,2,
+R7,1M,~,Library:Worthington_R_0402_1005Metric,1,
+R8,220,~,Library:Worthington_R_0402_1005Metric,1,
+R9,100k,~,Library:Worthington_R_0402_1005Metric,1,
+R10,18k,~,Library:Worthington_R_0402_1005Metric,1,
+R11,100,~,Library:Worthington_R_0402_1005Metric,1,
+U1,TPS22919DCK,http://www.ti.com/lit/ds/symlink/tps22917.pdf,Package_TO_SOT_SMD:SOT-363_SC-70-6,1,
+U2,Si5351B-B-GM1,https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si5351-B.pdf,Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm,1,
+U3,ATtiny416-M,http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf,Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,1,
+U5,TLV61070ADBV,https://www.ti.com/lit/ds/symlink/tlv61070a.pdf,Package_TO_SOT_SMD:SOT-23-6,1,
+Y1,25MHz,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2180/CX3225SB_UKY1C-H1-16355-00_Spec.pdf,Library:Crystal_SMD_Kyocera_CX3225SB-4Pin_3.2x2.5mm,1,
