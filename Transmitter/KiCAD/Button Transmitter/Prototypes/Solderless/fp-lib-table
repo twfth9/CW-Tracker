@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Solderless_CR2032_Holder")(type "KiCad")(uri "${KIPRJMOD}/Solderless_CR2032_Holder.pretty")(options "")(descr ""))
+)

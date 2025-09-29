@@ -1,0 +1,708 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Buzzer_Pad_NEG"
+		(pin_names
+			(offset 0.0254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BZ1"
+			(at 3.7962 1.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7BB-20-3"
+			(at 3.7962 -1.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Buzzer_Pad_NEG"
+			(at -3.302 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -0.635 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "quartz resonator ceramic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*Buzzer*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Buzzer_Pad_NEG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.175 0)
+				(mid 2.2451 -2.2451)
+				(end 0 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Buzzer_Pad_NEG_1_1"
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Buzzer_Pad_POS"
+		(pin_names
+			(offset 0.0254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BZ1"
+			(at 3.7962 1.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7BB-20-3"
+			(at 3.7962 -1.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Buzzer_Pad_POS"
+			(at -0.635 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -0.635 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "quartz resonator ceramic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*Buzzer*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Buzzer_Pad_POS_0_1"
+			(polyline
+				(pts
+					(xy -1.651 1.905) (xy -1.143 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.397 2.159) (xy -1.397 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.175) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.175)
+				(mid 2.2451 2.2451)
+				(end 3.175 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Buzzer_Pad_POS_1_1"
+			(pin passive line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IPL Logo 10mm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#G"
+			(at 0 4.3669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "IPL Logo 10mm"
+			(at 0 -4.3669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IPL Logo 10mm_0_0"
+			(polyline
+				(pts
+					(xy 0.092 -4.9066) (xy 0.2313 -4.7055) (xy 0.4458 -4.3801) (xy 0.7325 -3.9348) (xy 1.0884 -3.3744)
+					(xy 1.5106 -2.7035) (xy 1.9962 -1.9267) (xy 2.5422 -1.0487) (xy 3.1456 -0.0741) (xy 3.595 0.653)
+					(xy 3.595 2.8274) (xy 3.595 2.9024) (xy 3.5937 3.4613) (xy 3.5905 3.963) (xy 3.5858 4.3877) (xy 3.5797 4.7157)
+					(xy 3.5727 4.927) (xy 3.5648 5.0018) (xy 3.5541 4.9928) (xy 3.4787 4.8887) (xy 3.3517 4.6924) (xy 3.1936 4.4352)
+					(xy 3.1791 4.4112) (xy 3.0219 4.142) (xy 2.9255 3.9383) (xy 2.875 3.7445) (xy 2.8557 3.5053) (xy 2.8525 3.1652)
+					(xy 2.8525 3.1144) (xy 2.8446 2.7678) (xy 2.8179 2.5263) (xy 2.7645 2.3448) (xy 2.676 2.178) (xy 2.474 1.9396)
+					(xy 2.1695 1.766) (xy 1.8277 1.7324) (xy 1.7171 1.7345) (xy 1.5751 1.67) (xy 1.4298 1.4929) (xy 1.3354 1.3439)
+					(xy 1.263 1.1649) (xy 1.2995 1.0455) (xy 1.4458 0.9521) (xy 1.4933 0.9273) (xy 1.6096 0.8305) (xy 1.6471 0.742)
+					(xy 1.5825 0.7042) (xy 1.5174 0.7296) (xy 1.339 0.8176) (xy 1.0799 0.9538) (xy 0.7705 1.1225) (xy 0.017 1.5399)
+					(xy -0.7774 1.113) (xy -1.0762 0.9587) (xy -1.3471 0.8318) (xy -1.5401 0.7562) (xy -1.6261 0.7445)
+					(xy -1.6401 0.7687) (xy -1.5938 0.8341) (xy -1.5124 0.8747) (xy -1.3593 0.975) (xy -1.2914 1.03)
+					(xy -1.2549 1.1034) (xy -1.2864 1.2186) (xy -1.3888 1.4235) (xy -1.4684 1.5699) (xy -1.5677 1.6982)
+					(xy -1.6875 1.7412) (xy -1.8812 1.7323) (xy -2.004 1.7243) (xy -2.1645 1.7463) (xy -2.3105 1.8362)
+					(xy -2.4989 2.0204) (xy -2.6828 2.2384) (xy -2.7956 2.4652) (xy -2.854 2.7582) (xy -2.8667 2.9068)
+					(xy -2.8647 3.2117) (xy -2.8296 3.4559) (xy -2.8222 3.4836) (xy -2.7958 3.6362) (xy -2.8169 3.778)
+					(xy -2.8992 3.9554) (xy -3.0568 4.2148) (xy -3.0729 4.2404) (xy -3.2185 4.4807) (xy -3.3216 4.6671)
+					(xy -3.3607 4.761) (xy -3.3798 4.8125) (xy -3.4779 4.9237) (xy -3.4787 4.9244) (xy -3.5133 4.938)
+					(xy -3.5404 4.9054) (xy -3.5608 4.8108) (xy -3.5756 4.6385) (xy -3.5855 4.3728) (xy -3.5914 3.9979)
+					(xy -3.5944 3.4982) (xy -3.5951 2.8579) (xy -3.5951 0.6947) (xy -3.2169 0.0934) (xy -3.1667 0.0133)
+					(xy -2.9654 -0.3094) (xy -2.7179 -0.7084) (xy -2.4507 -1.1407) (xy -2.1907 -1.5631) (xy -2.0812 -1.7411)
+					(xy -1.7784 -2.2313) (xy -1.4406 -2.7761) (xy -1.1014 -3.3209) (xy -0.7949 -3.8113) (xy -0.5693 -4.1644)
+					(xy -0.3481 -4.4963) (xy -0.1646 -4.7563) (xy -0.0334 -4.9238) (xy 0.031 -4.9784) (xy 0.092 -4.9066)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IPL Logo 20mm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#G"
+			(at 0 9.3996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "IPL Logo 20mm"
+			(at 0 -9.3996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IPL Logo 20mm_0_0"
+			(polyline
+				(pts
+					(xy 0.1847 -9.8433) (xy 0.4642 -9.44) (xy 0.8945 -8.7871) (xy 1.4696 -7.8938) (xy 2.1836 -6.7695)
+					(xy 3.0307 -5.4236) (xy 4.0048 -3.8652) (xy 5.1002 -2.1038) (xy 6.3108 -0.1487) (xy 7.2123 1.3101)
+					(xy 7.2123 5.6724) (xy 7.2123 5.8229) (xy 7.2097 6.944) (xy 7.2034 7.9505) (xy 7.1939 8.8026) (xy 7.1817 9.4606)
+					(xy 7.1675 9.8845) (xy 7.1518 10.0346) (xy 7.1302 10.0166) (xy 6.9789 9.8076) (xy 6.7243 9.4139)
+					(xy 6.4071 8.8979) (xy 6.378 8.8497) (xy 6.0625 8.3097) (xy 5.8691 7.9009) (xy 5.7679 7.5122) (xy 5.7291 7.0323)
+					(xy 5.7228 6.3501) (xy 5.7227 6.2482) (xy 5.7069 5.5527) (xy 5.6534 5.0683) (xy 5.5461 4.7042)
+					(xy 5.3687 4.3695) (xy 4.9634 3.8912) (xy 4.3526 3.543) (xy 3.6669 3.4756) (xy 3.445 3.4798) (xy 3.1601 3.3503)
+					(xy 2.8686 2.9951) (xy 2.6791 2.6961) (xy 2.534 2.337) (xy 2.6071 2.0976) (xy 2.9006 1.9101) (xy 2.996 1.8605)
+					(xy 3.2292 1.6662) (xy 3.3045 1.4886) (xy 3.175 1.4129) (xy 3.0443 1.4637) (xy 2.6863 1.6403) (xy 2.1666 1.9135)
+					(xy 1.5459 2.252) (xy 0.0343 3.0894) (xy -1.5595 2.2329) (xy -2.1588 1.9234) (xy -2.7023 1.6688)
+					(xy -3.0896 1.5171) (xy -3.2621 1.4936) (xy -3.2902 1.5421) (xy -3.1972 1.6735) (xy -3.034 1.7549)
+					(xy -2.7269 1.956) (xy -2.5906 2.0663) (xy -2.5175 2.2137) (xy -2.5805 2.4448) (xy -2.7861 2.8558)
+					(xy -2.9457 3.1495) (xy -3.1449 3.407) (xy -3.3853 3.4932) (xy -3.7739 3.4753) (xy -4.0203 3.4594)
+					(xy -4.3422 3.5035) (xy -4.6352 3.6838) (xy -5.0131 4.0534) (xy -5.382 4.4907) (xy -5.6084 4.9457)
+					(xy -5.7255 5.5334) (xy -5.751 5.8317) (xy -5.747 6.4433) (xy -5.6766 6.9333) (xy -5.6616 6.9888)
+					(xy -5.6087 7.2949) (xy -5.651 7.5793) (xy -5.8162 7.9352) (xy -6.1322 8.4557) (xy -6.1646 8.5071)
+					(xy -6.4567 8.9892) (xy -6.6635 9.363) (xy -6.742 9.5514) (xy -6.7802 9.6547) (xy -6.9772 9.8779)
+					(xy -6.9788 9.8792) (xy -7.0481 9.9066) (xy -7.1024 9.8412) (xy -7.1435 9.6514) (xy -7.173 9.3058)
+					(xy -7.1929 8.7727) (xy -7.2049 8.0206) (xy -7.2108 7.018) (xy -7.2123 5.7334) (xy -7.2123 1.3938)
+					(xy -6.4536 0.1874) (xy -6.3528 0.0268) (xy -5.949 -0.6206) (xy -5.4524 -1.4212) (xy -4.9164 -2.2884)
+					(xy -4.3949 -3.1357) (xy -4.1751 -3.4929) (xy -3.5677 -4.4763) (xy -2.8899 -5.5692) (xy -2.2095 -6.6622)
+					(xy -1.5946 -7.6461) (xy -1.142 -8.3544) (xy -0.6981 -9.0203) (xy -0.33 -9.5419) (xy -0.0668 -9.878)
+					(xy 0.0624 -9.9876) (xy 0.1847 -9.8433)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IPL Logo 35mm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#G"
+			(at 0 16.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "IPL Logo 35mm"
+			(at 0 -16.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IPL Logo 35mm_0_0"
+			(polyline
+				(pts
+					(xy 0.3183 -17.1465) (xy 0.8 -16.444) (xy 1.5415 -15.3066) (xy 2.5326 -13.7506) (xy 3.7632 -11.7921)
+					(xy 5.223 -9.4475) (xy 6.9019 -6.733) (xy 8.7896 -3.6648) (xy 10.876 -0.259) (xy 12.4297 2.282)
+					(xy 12.4297 9.8808) (xy 12.4297 10.143) (xy 12.4252 12.0959) (xy 12.4143 13.8492) (xy 12.3979 15.3335)
+					(xy 12.377 16.4796) (xy 12.3525 17.2181) (xy 12.3254 17.4796) (xy 12.2881 17.4482) (xy 12.0275 17.0841)
+					(xy 11.5886 16.3983) (xy 11.0419 15.4995) (xy 10.9919 15.4155) (xy 10.4481 14.4748) (xy 10.1148 13.7628)
+					(xy 9.9404 13.0857) (xy 9.8736 12.2498) (xy 9.8627 11.0614) (xy 9.8625 10.8838) (xy 9.8352 9.6723)
+					(xy 9.7431 8.8286) (xy 9.5581 8.1944) (xy 9.2523 7.6112) (xy 8.5539 6.7782) (xy 7.5012 6.1716)
+					(xy 6.3195 6.0542) (xy 5.9371 6.0616) (xy 5.446 5.836) (xy 4.9437 5.2172) (xy 4.6172 4.6964) (xy 4.367 4.0708)
+					(xy 4.4931 3.6538) (xy 4.9989 3.3272) (xy 5.1633 3.2408) (xy 5.5652 2.9023) (xy 5.695 2.593) (xy 5.4717 2.4611)
+					(xy 5.2464 2.5496) (xy 4.6296 2.8573) (xy 3.7338 3.3332) (xy 2.6641 3.9227) (xy 0.0591 5.3815)
+					(xy -2.6876 3.8895) (xy -3.7206 3.3504) (xy -4.6572 2.9069) (xy -5.3247 2.6426) (xy -5.622 2.6018)
+					(xy -5.6704 2.6862) (xy -5.5102 2.9151) (xy -5.2289 3.0569) (xy -4.6996 3.4072) (xy -4.4648 3.5994)
+					(xy -4.3387 3.8561) (xy -4.4473 4.2587) (xy -4.8016 4.9745) (xy -5.0767 5.4862) (xy -5.4201 5.9347)
+					(xy -5.8343 6.0848) (xy -6.504 6.0537) (xy -6.9286 6.0259) (xy -7.4835 6.1029) (xy -7.9884 6.4169)
+					(xy -8.6397 7.0606) (xy -9.2754 7.8225) (xy -9.6656 8.615) (xy -9.8675 9.6388) (xy -9.9114 10.1584)
+					(xy -9.9044 11.2238) (xy -9.7831 12.0772) (xy -9.7573 12.174) (xy -9.6662 12.7071) (xy -9.739 13.2026)
+					(xy -10.0237 13.8226) (xy -10.5684 14.7293) (xy -10.6242 14.8188) (xy -11.1276 15.6586) (xy -11.484 16.3098)
+					(xy -11.6192 16.6378) (xy -11.6852 16.8178) (xy -12.0245 17.2065) (xy -12.0273 17.2089) (xy -12.1468 17.2566)
+					(xy -12.2404 17.1427) (xy -12.3112 16.8121) (xy -12.3621 16.21) (xy -12.3964 15.2814) (xy -12.417 13.9713)
+					(xy -12.4272 12.2249) (xy -12.4298 9.9872) (xy -12.4298 2.4279) (xy -11.1221 0.3264) (xy -10.9485 0.0467)
+					(xy -10.2526 -1.081) (xy -9.3967 -2.4756) (xy -8.4731 -3.9863) (xy -7.5742 -5.4623) (xy -7.1955 -6.0845)
+					(xy -6.1487 -7.7974) (xy -4.9805 -9.7012) (xy -3.808 -11.6052) (xy -2.7482 -13.319) (xy -1.9682 -14.5529)
+					(xy -1.2032 -15.7128) (xy -0.5688 -16.6214) (xy -0.1152 -17.2069) (xy 0.1075 -17.3977) (xy 0.3183 -17.1465)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS22919DCK"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U5"
+			(at 0 9.2245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22919DCK"
+			(at 0 6.8002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22917.pdf"
+			(at 1.27 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+			(at -0.254 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "high-side power distribution switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS22919DCK_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS22919DCK_1_1"
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "QOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
