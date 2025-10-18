@@ -4457,6 +4457,16 @@
 		)
 		(uuid "03691f5e-b8d2-4fe5-ada0-366c3331bd92")
 	)
+	(text "1mA LED"
+		(exclude_from_sim no)
+		(at 220.472 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08c5d376-cf1c-43dd-9ef3-b86d5905e071")
+	)
 	(text "Charge drain resistor"
 		(exclude_from_sim no)
 		(at 233.426 110.744 0)
@@ -4592,6 +4602,17 @@
 		)
 		(uuid "bde652a7-e029-4e94-aea3-f07d9381fe28")
 	)
+	(text "UPDI: PA0\nSDA: PB1 alt PA1\nSCL: PB0 alt PA2\nTCA0 WO0: PB0 alt PB3\nTCA0 WO1: PB1 alt PB4\nTCB0 WO: PA5 alt PC0\nTCD0 WOA/WOB/WOC/WOD: PA4, PA5, PC0, PC1"
+		(exclude_from_sim no)
+		(at 18.796 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f8cf1c-6352-48ba-9073-f46984c14670")
+	)
 	(text "μC ADC Divider\nIN: 35 to 4\nOUT: 2.18 to 0.25\n39.1mV per count\n4V = 102\n26V = 667\n35 = 895"
 		(exclude_from_sim no)
 		(at 83.82 186.69 0)
@@ -4632,12 +4653,6 @@
 			)
 		)
 		(uuid "ed16f394-872f-44dd-9476-9144e914be73")
-	)
-	(junction
-		(at 125.73 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "085236d4-6291-415a-8172-dfca5f7b346c")
 	)
 	(junction
 		(at 81.28 148.59)
@@ -4682,6 +4697,12 @@
 		(uuid "4039819d-7697-41e2-b1b0-069bd7109303")
 	)
 	(junction
+		(at 125.73 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cfca1e7-b4c3-44ce-a962-fed73c218057")
+	)
+	(junction
 		(at 74.93 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4712,7 +4733,13 @@
 		(uuid "721a3809-b654-4870-bf84-8a8c8e645d93")
 	)
 	(junction
-		(at 128.27 50.8)
+		(at 130.81 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f7131ae-d3e9-4138-853d-a0b5e9757c74")
+	)
+	(junction
+		(at 128.27 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82c99b5a-bc2a-4119-af3a-9b215c5e75b0")
@@ -4808,12 +4835,6 @@
 		(uuid "cd68b79a-e987-4566-93f0-27b689f860ef")
 	)
 	(junction
-		(at 130.81 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d75cb6fd-0e29-479e-9728-244c1757d610")
-	)
-	(junction
 		(at 72.39 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4830,6 +4851,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f77428d0-3138-4985-ac71-e7500c68a315")
+	)
+	(no_connect
+		(at 63.5 72.39)
+		(uuid "14efe85c-66b9-48c0-bafd-67e1264975c7")
 	)
 	(no_connect
 		(at 63.5 105.41)
@@ -4850,10 +4875,6 @@
 	(no_connect
 		(at 63.5 95.25)
 		(uuid "5f9836fa-eacb-4740-9064-8d7166486990")
-	)
-	(no_connect
-		(at 63.5 92.71)
-		(uuid "62cd4530-c4a0-43be-a88b-5a2ad07082ff")
 	)
 	(no_connect
 		(at 196.85 64.77)
@@ -4884,12 +4905,12 @@
 		(uuid "df74053e-3f08-4ece-b4c3-2130e5b88295")
 	)
 	(no_connect
-		(at 63.5 64.77)
-		(uuid "f3076ccc-b1aa-4d97-a593-a1a457090be3")
+		(at 63.5 82.55)
+		(uuid "e0ffadbe-3fd8-4f99-b57b-1e1705230d9b")
 	)
 	(no_connect
-		(at 63.5 62.23)
-		(uuid "f4e6f2dc-03d2-4ab9-a612-5ceb0f63a7b6")
+		(at 63.5 85.09)
+		(uuid "fccdd37e-3761-43fc-b87c-afdfb96436e0")
 	)
 	(wire
 		(pts
@@ -4933,13 +4954,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 62.23) (xy 166.37 62.23)
+			(xy 95.25 59.69) (xy 125.73 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07a73bf8-5fd3-47da-b699-df60622adc42")
+		(uuid "09488185-fdc0-4a41-8228-5f30b87967dc")
 	)
 	(wire
 		(pts
@@ -5121,16 +5142,6 @@
 		)
 		(uuid "2f0fc10d-034e-48f9-9a38-aef53ab82ca7")
 	)
-	(wire
-		(pts
-			(xy 125.73 57.15) (xy 125.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2fa38e-83d6-4a94-a5ad-234ca6b49fb3")
-	)
 	(polyline
 		(pts
 			(xy 116.205 153.67) (xy 116.205 178.435)
@@ -5140,6 +5151,26 @@
 			(type default)
 		)
 		(uuid "31d780f0-78d7-468a-93ed-2508441c9a70")
+	)
+	(wire
+		(pts
+			(xy 97.79 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aeea89-2c7d-4d03-8f1c-538497f91f4b")
+	)
+	(wire
+		(pts
+			(xy 63.5 62.23) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d34ef1-2899-4783-8dda-edccc0808b72")
 	)
 	(wire
 		(pts
@@ -5183,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 72.39) (xy 63.5 72.39)
+			(xy 78.74 92.71) (xy 63.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5293,6 +5324,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 62.23) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6037de0d-a670-4990-8100-14ccc089d1a6")
+	)
+	(wire
+		(pts
 			(xy 176.53 40.64) (xy 176.53 47.625)
 		)
 		(stroke
@@ -5300,6 +5341,16 @@
 			(type default)
 		)
 		(uuid "608399ce-ee5c-41dc-a01d-ed7c65b8a224")
+	)
+	(wire
+		(pts
+			(xy 97.79 64.77) (xy 97.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61595244-bf47-4459-aa3c-78e47e2535f0")
 	)
 	(polyline
 		(pts
@@ -5310,16 +5361,6 @@
 			(type default)
 		)
 		(uuid "61f46433-82b7-49c3-9dc6-6887df6efa8e")
-	)
-	(wire
-		(pts
-			(xy 63.5 82.55) (xy 125.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65da657a-6926-4659-9496-703aa58afcb2")
 	)
 	(wire
 		(pts
@@ -5503,7 +5544,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 50.8) (xy 125.73 50.8)
+			(xy 128.27 43.18) (xy 125.73 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5553,16 +5594,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 130.81 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850c3592-454f-4102-85b8-e48c15b6dbf8")
-	)
-	(wire
-		(pts
 			(xy 163.83 67.31) (xy 166.37 67.31)
 		)
 		(stroke
@@ -5603,16 +5634,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 57.15) (xy 130.81 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c95f785-e3fb-4844-a321-57b5fd437bc4")
-	)
-	(wire
-		(pts
 			(xy 63.5 100.33) (xy 213.36 100.33)
 		)
 		(stroke
@@ -5640,16 +5661,6 @@
 			(type default)
 		)
 		(uuid "92365fcb-a7f6-4e9f-b536-83b815c5b263")
-	)
-	(wire
-		(pts
-			(xy 125.73 62.23) (xy 125.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ac5912-1824-4a81-a88f-ba74f75e6a6c")
 	)
 	(wire
 		(pts
@@ -5733,13 +5744,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 59.69) (xy 130.81 85.09)
+			(xy 63.5 64.77) (xy 97.79 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a592f1f0-7450-4b74-aaf6-660560e9c8d0")
+		(uuid "a3640569-04bd-408b-9343-92aabf5d9845")
 	)
 	(wire
 		(pts
@@ -5750,16 +5761,6 @@
 			(type default)
 		)
 		(uuid "a91c588d-d8fb-4c5f-aeb3-29e60b84e3c3")
-	)
-	(wire
-		(pts
-			(xy 130.81 59.69) (xy 166.37 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6af98e-71f5-440f-8d79-51b6cbe4e884")
 	)
 	(wire
 		(pts
@@ -5853,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 40.64) (xy 128.27 50.8)
+			(xy 128.27 40.64) (xy 128.27 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5863,7 +5864,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 125.73 52.07)
+			(xy 125.73 43.18) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5933,6 +5934,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 49.53) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64de083-479a-427e-b68d-a515f0028547")
+	)
+	(wire
+		(pts
 			(xy 243.84 46.99) (xy 243.84 60.96)
 		)
 		(stroke
@@ -5993,7 +6004,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 128.27 50.8)
+			(xy 130.81 43.18) (xy 128.27 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6050,6 +6061,16 @@
 			(type default)
 		)
 		(uuid "e08df0c4-f2f5-40ce-9830-a817bcb37c1a")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25c00f6-3905-416b-b49a-9cda318bf796")
 	)
 	(wire
 		(pts
@@ -6133,7 +6154,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 52.07) (xy 130.81 50.8)
+			(xy 130.81 44.45) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6203,6 +6224,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d3148a-d456-4b51-b78b-ed95905e03f0")
+	)
+	(wire
+		(pts
 			(xy 49.53 184.15) (xy 49.53 185.42)
 		)
 		(stroke
@@ -6260,6 +6291,16 @@
 			(type default)
 		)
 		(uuid "fef8b5d9-ab3f-4f22-af5f-429ed416e229")
+	)
+	(wire
+		(pts
+			(xy 130.81 49.53) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff847f74-c3ed-42c9-9783-bedd1f79a154")
 	)
 	(label "BOOST_EN"
 		(at 22.86 158.75 0)
@@ -6372,12 +6413,12 @@
 		(uuid "9c75ffe4-970f-41f5-bdf6-b504a0e47bce")
 	)
 	(label "MCU_SCL"
-		(at 166.37 62.23 180)
+		(at 157.48 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "af9655d7-bbb9-4c80-b8f1-d0a5f852e37f")
 	)
@@ -6402,7 +6443,7 @@
 		(uuid "be9797c5-77ec-4cef-9673-124097da55ce")
 	)
 	(label "BOOST_EN"
-		(at 78.74 72.39 180)
+		(at 78.74 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6422,12 +6463,12 @@
 		(uuid "c6d8f455-f40a-412e-b59b-7d5ed8a09c2b")
 	)
 	(label "MCU_SDA"
-		(at 166.37 59.69 180)
+		(at 157.48 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cc43cf21-ec14-4a46-acaa-c6985734a23b")
 	)
@@ -6472,7 +6513,7 @@
 		(uuid "f2bd05d5-2aff-4c10-9b73-1bf8fa5ddc42")
 	)
 	(label "MCU_SCL"
-		(at 78.74 82.55 180)
+		(at 78.74 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6482,7 +6523,7 @@
 		(uuid "f805d7bd-c2a6-41e7-b18d-0ac3c1bc75e4")
 	)
 	(label "MCU_SDA"
-		(at 78.74 85.09 180)
+		(at 78.74 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6502,7 +6543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "059aa0b6-6dc3-41a3-a02c-866ad9918218")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0116"
 			(at 256.54 86.36 0)
 			(effects
 				(font
@@ -6554,7 +6595,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0114")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f03479-5d4b-4cf2-84d3-309ae50ef329")
-		(property "Reference" "R105"
+		(property "Reference" "R107"
 			(at 245.491 88.9579 0)
 			(effects
 				(font
@@ -6624,7 +6665,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R105")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -6640,7 +6681,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0dd9e5be-133d-4ca1-a4fc-1b114c31ffb7")
-		(property "Reference" "D101"
+		(property "Reference" "D102"
 			(at 210.439 115.9453 90)
 			(effects
 				(font
@@ -6710,7 +6751,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "D101")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -6725,7 +6766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1260329c-fc13-4eba-8e53-0f8564c12bf4")
-		(property "Reference" "R109"
+		(property "Reference" "R111"
 			(at 112.014 157.734 0)
 			(effects
 				(font
@@ -6777,7 +6818,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R109")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16f42f55-8f7f-422f-8c80-ec54544662ad")
-		(property "Reference" "R104"
+		(property "Reference" "R106"
 			(at 254.889 76.2579 0)
 			(effects
 				(font
@@ -6847,7 +6888,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R104")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2efd10-beb0-4867-b379-377973fe7ff9")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0124"
 			(at 22.86 151.13 0)
 			(effects
 				(font
@@ -6916,7 +6957,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0122")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -6933,7 +6974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c232eb8-69a9-4c3b-af33-c9d5ed7d192a")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0108"
 			(at 159.385 54.61 0)
 			(effects
 				(font
@@ -6984,7 +7025,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0106")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -7001,7 +7042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d7be511-a36f-40b4-8d79-cb05bc4a571c")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0122"
 			(at 48.26 119.38 0)
 			(effects
 				(font
@@ -7053,7 +7094,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0120")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -7069,7 +7110,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2225a247-5cf7-4810-a766-920f664e914f")
-		(property "Reference" "R118"
+		(property "Reference" "R103"
 			(at 209.931 45.7778 0)
 			(effects
 				(font
@@ -7123,7 +7164,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R118")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -7140,7 +7181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f62cbf-7f71-4748-9db3-4c75d8410855")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0117"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -7192,7 +7233,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0115")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7209,7 +7250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f56793-cf79-42d5-847e-14fc21de6a3e")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0120"
 			(at 243.84 111.76 0)
 			(effects
 				(font
@@ -7261,7 +7302,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0118")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29994dcc-fee1-46fd-ad12-eabf16a988d8")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0119"
 			(at 181.61 101.6 0)
 			(effects
 				(font
@@ -7330,7 +7371,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0117")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b744936-b932-4c81-a34b-618573bdd05c")
-		(property "Reference" "R116"
+		(property "Reference" "R118"
 			(at 169.164 172.974 0)
 			(effects
 				(font
@@ -7397,7 +7438,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R116")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -7622,7 +7663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c15156b-dbf6-4b25-90de-ac897e70a2fa")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0105"
 			(at 243.84 43.18 0)
 			(effects
 				(font
@@ -7672,7 +7713,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0111")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7689,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fbf16de-6fb0-4007-9a9c-f0c41e2d50c5")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0130"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -7741,7 +7782,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0128")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -7756,7 +7797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "422d771a-aa12-4181-82cb-e83b4b95735f")
-		(property "Reference" "R111"
+		(property "Reference" "R113"
 			(at 169.164 162.814 0)
 			(effects
 				(font
@@ -7808,7 +7849,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R111")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -7825,7 +7866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4463c6f8-0176-4049-b938-9fcd8f52df1e")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0128"
 			(at 175.26 162.56 0)
 			(effects
 				(font
@@ -7877,7 +7918,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0126")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -7892,7 +7933,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "44c9bfac-95db-4181-bb85-6b235b2649f4")
-		(property "Reference" "D103"
+		(property "Reference" "D101"
 			(at 211.201 35.9353 90)
 			(effects
 				(font
@@ -7962,7 +8003,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "D103")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -7977,7 +8018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "470ec942-d808-43ae-bd93-855b5bb77713")
-		(property "Reference" "R117"
+		(property "Reference" "R119"
 			(at 78.994 183.134 0)
 			(effects
 				(font
@@ -8029,7 +8070,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R117")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -8115,7 +8156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a18037c-fecc-4db4-926d-4eb229140810")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0115"
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -8167,7 +8208,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0112")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -8184,7 +8225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf61deb-f962-48a4-ada1-001e93ec4e92")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0112"
 			(at 64.77 58.42 0)
 			(effects
 				(font
@@ -8236,7 +8277,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0109")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8285,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 130.81 54.61 0)
+		(at 130.81 46.99 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8253,7 +8294,7 @@
 		(dnp no)
 		(uuid "4c110d0a-85ad-4594-8c5d-f1e4996fd86f")
 		(property "Reference" "R102"
-			(at 132.461 55.8221 0)
+			(at 132.461 48.2021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +8303,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 132.461 53.3979 0)
+			(at 132.461 45.7779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8312,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 54.61 0)
+			(at 130.81 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 54.61 0)
+			(at 130.81 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 54.61 0)
+			(at 130.81 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +8363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51341c6c-e50c-416a-85a7-748cc11cbf4f")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0103"
 			(at 102.87 34.29 0)
 			(effects
 				(font
@@ -8374,7 +8415,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8391,7 +8432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52230a0a-80ea-4cbf-b3ec-8d9564aa0263")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0109"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -8442,7 +8483,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0107")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -8459,7 +8500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524174ab-de5f-40bf-a76c-588c90edc00f")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0110"
 			(at 208.28 55.88 0)
 			(effects
 				(font
@@ -8511,7 +8552,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0136")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -8825,7 +8866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cf78339-477c-420b-9fa3-9f3b3d29c6c3")
-		(property "Reference" "C108"
+		(property "Reference" "C107"
 			(at 250.1963 67.31 90)
 			(effects
 				(font
@@ -8877,7 +8918,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "C108")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -8894,7 +8935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6331866c-f48e-40e3-a1a5-fa51cdd7cc91")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0134"
 			(at 46.99 193.04 0)
 			(effects
 				(font
@@ -8946,7 +8987,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0132")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -8961,7 +9002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64db3794-b3de-4411-b54f-79d027087260")
-		(property "Reference" "R110"
+		(property "Reference" "R112"
 			(at 22.606 165.1 0)
 			(effects
 				(font
@@ -9013,7 +9054,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R110")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -9030,7 +9071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f02f0e8-2f43-47a6-83f9-59b19f46cffb")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0132"
 			(at 149.86 182.88 0)
 			(effects
 				(font
@@ -9082,7 +9123,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0130")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -9168,7 +9209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7365e910-173a-453a-bf93-ec55c967fdb7")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0113"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -9220,7 +9261,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0110")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75c4f8ca-9d25-4465-90ce-3560b7f15ce3")
-		(property "Reference" "C107"
+		(property "Reference" "C108"
 			(at 161.5059 72.3258 0)
 			(effects
 				(font
@@ -9289,7 +9330,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "C107")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -9375,7 +9416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7868d80d-60bc-45fe-8fea-7047a49bb3f5")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0111"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -9427,7 +9468,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0108")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -9518,7 +9559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82563daf-09fd-4636-a915-f527fc852108")
-		(property "Reference" "R107"
+		(property "Reference" "R109"
 			(at 229.489 108.0079 0)
 			(effects
 				(font
@@ -9572,7 +9613,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R107")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -9589,7 +9630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8418a5f0-2d73-4f81-bb4f-04d430274baf")
-		(property "Reference" "D102"
+		(property "Reference" "D103"
 			(at 67.6275 142.24 0)
 			(effects
 				(font
@@ -9641,7 +9682,7 @@
 		(instances
 			(project ""
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "D102")
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -9861,7 +9902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f32cb0c-3da7-4e6d-8ef6-9ad64ccc3bfd")
-		(property "Reference" "R113"
+		(property "Reference" "R115"
 			(at 103.124 169.164 0)
 			(effects
 				(font
@@ -9913,7 +9954,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R113")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -10079,7 +10120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9189be6a-19ce-408a-9eb3-413b27ea98af")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0121"
 			(at 231.14 118.11 0)
 			(effects
 				(font
@@ -10131,7 +10172,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0119")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -10147,7 +10188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f9db3e-f272-4d5c-84f7-f755b9fc75ec")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0123"
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -10199,7 +10240,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0121")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -10216,7 +10257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e2e137-9b3a-4e17-8d84-c13c71f4b238")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0133"
 			(at 165.1 182.88 0)
 			(effects
 				(font
@@ -10268,7 +10309,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0131")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10379,7 +10420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a3e995e-02e6-4f69-b1ae-b4f7a884168d")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0118"
 			(at 223.52 85.09 0)
 			(effects
 				(font
@@ -10431,7 +10472,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0116")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -10560,7 +10601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d8b05c0-37ce-49fa-aca1-e6c19ca3cf9c")
-		(property "Reference" "R114"
+		(property "Reference" "R116"
 			(at 112.014 169.164 0)
 			(effects
 				(font
@@ -10612,7 +10653,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R114")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -10696,7 +10737,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a31fd49d-49bc-4ad3-a004-704753cf5e09")
-		(property "Reference" "R108"
+		(property "Reference" "R110"
 			(at 215.011 123.2478 0)
 			(effects
 				(font
@@ -10750,7 +10791,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R108")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -10767,7 +10808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4303433-a942-4d92-83ef-a3623df7d866")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0107"
 			(at 148.59 54.61 0)
 			(effects
 				(font
@@ -10818,7 +10859,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0105")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10834,7 +10875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67c51b4-a1a0-4df7-9e3c-ad92dbe8354f")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0106"
 			(at 48.26 46.99 0)
 			(effects
 				(font
@@ -10884,7 +10925,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0104")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -10901,7 +10942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7e7de8d-857b-44dc-a949-05cd4c850b46")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0126"
 			(at 81.28 161.29 0)
 			(effects
 				(font
@@ -10953,7 +10994,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0124")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -11115,7 +11156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b63819e5-e383-4c92-8a35-a7e693a35a73")
-		(property "Reference" "R115"
+		(property "Reference" "R117"
 			(at 78.994 172.974 0)
 			(effects
 				(font
@@ -11167,7 +11208,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R115")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -11254,7 +11295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b97b1afe-0d71-42db-83d1-c2fa74366b90")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0114"
 			(at 260.35 72.39 0)
 			(effects
 				(font
@@ -11306,7 +11347,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc266e51-a038-4325-9191-99e8cb136783")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0102"
 			(at 208.28 29.21 0)
 			(effects
 				(font
@@ -11450,7 +11491,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0135")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -11545,7 +11586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c45ae3eb-56b8-44d6-8fd5-d36860dc6101")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0104"
 			(at 176.53 43.18 0)
 			(effects
 				(font
@@ -11595,7 +11636,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -11764,7 +11805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdce6732-0385-4bad-9ce5-b0f5dbe70b7d")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0135"
 			(at 74.93 193.04 0)
 			(effects
 				(font
@@ -11816,7 +11857,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0133")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -11832,7 +11873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb4ba3c-2700-4f85-87b8-6f311aa048b9")
-		(property "Reference" "R106"
+		(property "Reference" "R108"
 			(at 220.98 95.2967 90)
 			(effects
 				(font
@@ -11884,7 +11925,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R106")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -11899,7 +11940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cef032d3-6349-495d-b15a-73e41a668282")
-		(property "Reference" "R103"
+		(property "Reference" "R104"
 			(at 205.74 57.15 90)
 			(effects
 				(font
@@ -11951,7 +11992,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R103")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -12038,7 +12079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e0501d-f588-4ec1-8592-46759cb5b98d")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0125"
 			(at 175.26 149.86 0)
 			(effects
 				(font
@@ -12088,7 +12129,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0123")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -12173,7 +12214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de2974b1-5da3-4866-b6b5-bfb54864147b")
-		(property "Reference" "R119"
+		(property "Reference" "R105"
 			(at 149.86 64.77 90)
 			(effects
 				(font
@@ -12225,7 +12266,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R119")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -12240,7 +12281,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e76b062a-0acd-4bc5-8743-5d9e23b3dbfb")
-		(property "Reference" "R112"
+		(property "Reference" "R114"
 			(at 157.48 166.37 90)
 			(effects
 				(font
@@ -12292,7 +12333,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "R112")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -12309,7 +12350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e916d1ba-81b0-456e-9a6b-ffa472997d6b")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0127"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -12361,7 +12402,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0125")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -12439,7 +12480,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 125.73 54.61 180)
+		(at 125.73 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12447,7 +12488,7 @@
 		(dnp no)
 		(uuid "ec920d35-4ece-4e5f-aa44-fed80512df60")
 		(property "Reference" "R101"
-			(at 124.079 55.8221 0)
+			(at 124.079 48.2021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12497,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 124.079 53.3979 0)
+			(at 124.079 45.7779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12506,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 54.61 0)
+			(at 125.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +12515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 54.61 0)
+			(at 125.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12483,7 +12524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 54.61 0)
+			(at 125.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +12558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed937085-809c-4ed0-a3e4-11fd6032991f")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0129"
 			(at 88.9 177.8 0)
 			(effects
 				(font
@@ -12569,7 +12610,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0127")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -12586,7 +12627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edce41fc-c425-419c-bd01-9c79830496a5")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0136"
 			(at 132.08 196.85 0)
 			(effects
 				(font
@@ -12638,7 +12679,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0134")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -12819,7 +12860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c937c9-e305-4625-a420-2250b7fed524")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0131"
 			(at 17.78 181.61 0)
 			(effects
 				(font
@@ -12871,7 +12912,7 @@
 		(instances
 			(project "button_transmitter_revb"
 				(path "/4f60c132-7871-4291-b955-656ae7acf3c2"
-					(reference "#PWR0129")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
