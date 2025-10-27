@@ -124,22 +124,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
-        "min_connection": 0.0,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.2,
+        "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -645,7 +645,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../../../../../Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -664,6 +664,10 @@
     [
       "673becb4-2bc7-42a8-8d62-6d7ecfc6c40b",
       "Math"
+    ],
+    [
+      "4146980c-4a1c-4d9e-840c-42c2fe532c64",
+      "Charge Pump"
     ]
   ],
   "text_variables": {}
